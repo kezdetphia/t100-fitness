@@ -1,10 +1,13 @@
-
-import './App.css';
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Banner from './components/Banner'
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
+    <h1 className = 'App'>
+      <NavBar />
+      <Banner />
       Hello world!
     </h1>
-  )
+  );
 }
