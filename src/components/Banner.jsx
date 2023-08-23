@@ -14,12 +14,12 @@ const Banner = () => {
         style={{ backgroundImage: `url(${p2})` }}
       ></div>
       <div className="w-full md:w-1/2 md:mt-0 p-4">
-        <ul className="p-5 text-white font-[Poppins] text-m mt-16 md:text-3xl lg:text-4xl">
+        <ul className="p-5 text-gray-400 font-[Poppins] text-m mt-16 md:text-3xl lg:text-4xl">
           <li>Positivity</li>
           <li>Purpose </li>
           <li>Determination </li>
         </ul>
-        <h1 className="text-white font-[Poppins] text-m mt-16 md:text-2xl lg:text-3xl">
+        <h1 className="text-gray-400  font-[Poppins] text-m mt-16 md:text-2xl lg:text-3xl">
           I specialize in turning fitness aspirations into accomplishments.
           Let's forge a path to wellness that embodies your inner strength.
         </h1>

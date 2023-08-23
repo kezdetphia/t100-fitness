@@ -31,7 +31,7 @@ const Nav = () => {
   const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
 
   return (
-    <div className={`w-full fixed top-0 left-0 ${isMobile  ? (scrolled ? "hidden" : "bg-transparent text-white") : (scrolled ? "bg-white text-black" : "bg-transparent text-white")}`}>
+    <div className={`w-full fixed top-0 left-0 ${isMobile  ? (scrolled ? "hidden" : "bg-transparent text-gray-400") : (scrolled ? "bg-white text-black" : "bg-transparent text-white")}`}>
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         <div className={`font-bold text-2xl cursor-pointer flex items-center font-[Poppins] ${scrolled ? "text-black" : "text-white"}`}>
           <span>Majer Fitness</span>
@@ -50,7 +50,7 @@ const Nav = () => {
                 <a
                   href={link.link}
                   className={`${
-                    open ? "text-black" : "text-white"
+                    open ? "text-black" : "text-gray-400"
                   } hover:text-gray-300 duration-500`}
                 >
                   {link.name}
