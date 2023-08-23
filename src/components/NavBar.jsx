@@ -15,7 +15,7 @@ const Nav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
+      if (window.scrollY > 70) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -31,10 +31,9 @@ const Nav = () => {
   const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
 
   return (
-    <div className={`shadow-md w-full fixed top-0 left-0 ${isMobile ? (scrolled ? "hidden" : "bg-transparent text-white") : (scrolled ? "bg-white text-black" : "bg-transparent text-white")}`}>
+    <div className={`w-full fixed top-0 left-0 ${isMobile  ? (scrolled ? "hidden" : "bg-transparent text-white") : (scrolled ? "bg-white text-black" : "bg-transparent text-white")}`}>
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         <div className={`font-bold text-2xl cursor-pointer flex items-center font-[Poppins] ${scrolled ? "text-black" : "text-white"}`}>
-          <span className="text-3xl text-indigo-600 mr-1 pt-2"></span>
           <span>Majer Fitness</span>
         </div>
 
@@ -60,9 +59,9 @@ const Nav = () => {
             ))}
           </ul>
         ) : (
-          <ul className="md:flex md:items-center md:pb-0 pb-0 md:w-auto md:pl-0 pl-0">
+          <ul className=" pr-10 md:flex md:items-center md:pb-0 pb-0 md:w-auto md:pl-0 pl-0">
             {Links.map((link) => (
-              <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+              <li key={link.name} className=" md:ml-8 text-xl md:my-0 my-7">
                 <a
                   href={link.link}
                   className={`${
@@ -81,3 +80,4 @@ const Nav = () => {
 };
 
 export default Nav;
+
