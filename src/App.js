@@ -4,10 +4,12 @@ import Banner from './components/Banner'
 
 export default function App() {
   return (
-    <h1 className = 'App'>
+    <div className = 'App'>
       <NavBar />
       <Banner />
-      Hello world!
-    </h1>
+      <div>rest of the site</div>
+      <div>rest of the site</div>
+      <div>rest of the site</div>
+    </div>
   );
 }

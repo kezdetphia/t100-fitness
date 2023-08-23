@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { IoMenu } from "react-icons/io5";
+import React, { useState, useEffect } from "react";
+import { IoMenu, IoClose } from "react-icons/io5";
 
 const Nav = () => {
   let Links = [
@@ -10,34 +10,42 @@ const Nav = () => {
     { name: "CONTACT", link: "/" },
   ];
   let [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div
-          className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-      text-gray-800"
-        >
+    <div className={`shadow-md w-full fixed top-0 left-0 ${scrolled ? "bg-white text-black" : "bg-transparent text-white"}`}>
+      <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
+        <div className={`font-bold text-2xl cursor-pointer flex items-center font-[Poppins] ${scrolled ? "text-black" : "text-white"}`}>
           <span className="text-3xl text-indigo-600 mr-1 pt-2"></span>
-          Majer Fitness
+          <span>Majer Fitness</span>
         </div>
 
-        <div
-          onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden"
-        >
-          <IoMenu name={open ? "close" : "menu"}></IoMenu>
+        <div onClick={() => setOpen(!open)} className={`text-3xl absolute right-8 top-4 cursor-pointer md:hidden transition-all duration-500 ${open ? "transform rotate-180" : ""}`}>
+          {open ? <IoClose /> : <IoMenu />}
         </div>
-
-        <ul
-        className={`md:flex md:items-center md:pb-0 pb-0 absolute md:static bg-white md:z-auto z-[-1] left-0 right-0 md:w-auto md:pl-0 pl-0 transition-all duration-500 ease-in ${
-          open ? "top-1" : "top-[-490px]"
-        }`}
-      >
+        <ul className={`md:flex md:items-center md:pb-0 pb-0 absolute md:static left-0 right-0 md:w-auto md:pl-0 pl-0 transition-all duration-500 ease-in ${open ? "top-[80px] bg-white text-black" : "-top-[490px]"}`}>
           {Links.map((link) => (
-            <li key={link.name} className="pl-8 md:ml- text-xl md:my-0 my-7">
+            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={link.link}
-                className="text-gray-800 hover:text-gray-400 duration-500"
+                className={`${
+                  scrolled ? "text-black" : "text-white"
+                } hover:text-gray-300 duration-500`}
               >
                 {link.name}
               </a>
