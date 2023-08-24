@@ -8,7 +8,8 @@ import p3 from "../utilities/p3.png";
 const Banner = () => {
   return (
     // <div className='w-screen h-screen bg-cover bg-center flex' style={{ backgroundImage: `url(${Bg})` }}>
-    <div className="w-screen h-screen bg-gradient-to-r from-gray-500 to-black flex flex-col md:flex-row pt-10">
+     <div className="w-screen h-screen bg-gradient-to-r from-black to-gray-600 flex flex-col md:flex-row pt-10"> 
+     {/* <div className="w-screen h-screen bg-black flex flex-col md:flex-row pt-10">  */}
       <div
         className="w-full h-1/2 bg-cover md:w-1/2 md:h-full"
         style={{ backgroundImage: `url(${p2})` }}
