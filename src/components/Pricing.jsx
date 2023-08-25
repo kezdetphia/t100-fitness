@@ -47,7 +47,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:justify-evenly  bg-gray-200">
+    <div className="flex flex-col md:flex-row md:justify-evenly  bg-white">
       {cardData.map((card, index) => (
         <PriceCard key={index} {...card} />
       ))}

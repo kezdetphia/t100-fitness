@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-800">
+    <div className="py-10 bg-stone-900">
   <div className="p-4 text-center">
     <h1 className="text-white text-3xl pb-4 font-[Poppins]">Get in touch</h1>
   </div>
@@ -31,8 +31,8 @@ const Contact = () => {
     <div className="lg:w-1/3 p-4 text-center">
       <img src={p1} alt="Your Image" className="mx-auto max-w-xs h-auto" />
     </div>
-    <div className="w-full lg:w-2/3 px-4 lg:px-10 py-10 bg-transparent">
-      <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
+    <div className="w-full  md:w-2/3 px-4 lg:px-10 py-10 bg-transparent">
+      <form onSubmit={handleSubmit} className="flex flex-col  space-y-6">
         <input
           type="text"
           name="firstname"
