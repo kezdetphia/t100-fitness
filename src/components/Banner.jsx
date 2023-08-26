@@ -8,7 +8,7 @@ import p2 from "../utilities/p2.png";
 const Banner = () => {
   return (
     // <div className='w-screen h-screen bg-cover bg-center flex' style={{ backgroundImage: `url(${Bg})` }}>
-    <div className="w-screen h-screen bg-stone-800 flex flex-col md:flex-row pt-10">
+    <div className="w-screen h-screen bg-black flex flex-col md:flex-row pt-10">
       {/* <div className="w-screen h-screen bg-black flex flex-col md:flex-row pt-10">  */}
       <div
         className="w-full  h-screen bg-cover md:w-full md:h-full"
