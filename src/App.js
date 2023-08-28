@@ -1,15 +1,13 @@
 import "./App.css";
-import NavBar from './components/NavBar'
-import Banner from './components/Banner'
-import Contact from "./components/Contact";
-import Pricing from "./components/Pricing";
-import NavBar2 from "./components/NavBar2";
+import NavBar from './components/Pages/NavBar'
+import Banner from './components/Pages/Banner'
+import Contact from "./components/Pages/Contact";
+import Pricing from "./components/Pages/Pricing";
 
 export default function App() {
   return (
     <div className = 'App'>
-      <NavBar2/>
-      {/* <NavBar /> */}
+      <NavBar />
       <Banner />
       <Pricing />
       <Contact />

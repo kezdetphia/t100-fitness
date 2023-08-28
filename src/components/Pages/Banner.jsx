@@ -1,9 +1,9 @@
 import React from "react";
-import Bg from "../utilities/bg.jpg";
-import pic1 from "../utilities/pic1.jpg";
-import p1 from "../utilities/p1.png";
-import p3 from "../utilities/p3.png";
-import p2 from "../utilities/p2.png";
+import Bg from '../../utilities/bg.jpg'
+import pic1 from "../../utilities/pic1.jpg";
+import p1 from "../../utilities/p1.png";
+import p3 from "../../utilities/p3.png";
+import p2 from "../../utilities/p2.png";
 
 const Banner = () => {
   return (

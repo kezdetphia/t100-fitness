@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import p1 from "../utilities/p1.png";
+import p1 from "../../utilities/p1.png";
 
 const Contact = () => {
   const formInitialDetails = {
