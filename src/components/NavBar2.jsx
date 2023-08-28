@@ -41,7 +41,6 @@ const NavBar2 = () => {
         Majer Fitness
       </div>
 
-
       <div className="md:hidden  ">
         {menuOpen ? (
           <IoClose
@@ -53,7 +52,6 @@ const NavBar2 = () => {
             onClick={() => setMenuOpen(!menuOpen)}
           />
         ) : (
-          
           <IoMenu
             className={`${
               scrolled
@@ -65,21 +63,16 @@ const NavBar2 = () => {
         )}
       </div>
 
-
       <div
-        className={`${
-          menuOpen ? "w-full  block origin-top-right absolute right-0  rounded-md shadow-lg bg-white " : "hidden"
-        } md:flex flex-col md:flex-row `}
+        className={`md:flex flex-col md:flex-row transition-all duration-500 ease-in ${
+          menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-[-20px]"
+        } md:opacity-100 md:translate-y-0 absolute right-0 top-[calc(100%)] md:top-auto md:relative w-full md:w-auto md:bg-transparent bg-white md:shadow-none shadow-lg  z-20`}
       >
-        <ul
-          className={`md:flex md:items-center md:pb-0 py-5 md:pt-1 absolute md:static left-0 right-0 md:w-auto md:pl-0 pl-0 transition-all duration-500 ease-in ${
-            menuOpen ? "top-[40px] shadow-lg bg-white text-black " : "-top-[h-screen]"
-          }`}
-        >
+        <ul className="md:flex md:items-center md:pb-0 md:pt-1 md:static left-0 right-0  md:w-auto md:pl-0 pl-0 py-6 md:border-transparent border border-t shadow-lg">
           {Links.map((link) => (
             <li
               key={link.name}
-              className="md:pr-16  md:text-lg md:flex md:items-center py-3 hover:text-gray-400 cursor-pointer "
+              className={`md:pr-16  md:text-lg md:flex md:items-center py-3 ${scrolled ? 'md:text-black' : 'md:text-white'} text-black hover:text-gray-400  cursor-pointer`}
             >
               <a href={link.link}>{link.name}</a>
             </li>
