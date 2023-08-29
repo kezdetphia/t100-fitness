@@ -1,49 +1,20 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import bg from '../utilities/bg.jpg'
-
+import ba1 from '../utilities/ba1.png'
+import ba2 from '../utilities/ba2.png'
+import ba3 from '../utilities/ba3.png'
+import ba4 from '../utilities/ba4.png';
 
 const CarouselNav = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
-    <div className="rounded-xl">
-      <Slider {...settings}>
-        <div>
-          <img
-            src={bg}
-            alt="Slide 1"
-            className="h-full w-full object-cover"
-          />
-        </div>
-        <div>
-          <img
-            src="https://via.placeholder.com/800x400?text=Slide+2"
-            alt="Slide 2"
-            className="h-full w-full object-cover"
-          />
-        </div>
-        <div>
-          <img
-            src="https://via.placeholder.com/800x400?text=Slide+3"
-            alt="Slide 3"
-            className="h-full w-full object-cover"
-          />
-        </div>
-      </Slider>
+    <div className="overflow-x-scroll whitespace-no-wrap my-10">
+      <div className="flex space-x-4 animate-scroll">
+        <img src={ba1} alt="Slide 1" className="w-screen h-screen object-cover" />
+        <img src={ba2} alt="Slide 2" className="w-screen h-screen object-cover" />
+        <img src={ba3} alt="Slide 3" className="w-screen h-screen object-cover" />
+        <img src={ba4} alt="Slide 4" className="w-screen h-screen object-cover" />
+      </div>
     </div>
   );
 };
 
 export default CarouselNav;
-
