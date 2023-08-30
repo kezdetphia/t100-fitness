@@ -13,13 +13,14 @@ const NavBar2 = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 70) {
         setScrolled(true);
       } else {
         setScrolled(false);
-      }
+      }	
     };
 
     window.addEventListener("scroll", handleScroll);

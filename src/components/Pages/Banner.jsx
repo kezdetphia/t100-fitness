@@ -4,11 +4,12 @@ import pic1 from "../../utilities/pic1.jpg";
 import p1 from "../../utilities/p1.png";
 import p3 from "../../utilities/p3.png";
 import p2 from "../../utilities/p2.png";
+import bg3 from "../../utilities/bg3.jpg";
 
 const Banner = () => {
   return (
     // <div className='w-screen h-screen bg-cover bg-center flex' style={{ backgroundImage: `url(${Bg})` }}>
-    <div className="w-screen h-screen bg-black flex flex-col md:flex-row pt-10">
+    <div  className="w-screen h-screen bg-black flex flex-col md:flex-row pt-10">
       {/* <div className="w-screen h-screen bg-black flex flex-col md:flex-row pt-10">  */}
       <div
         className="w-full  h-screen bg-cover md:w-full md:h-full"
@@ -19,6 +20,7 @@ const Banner = () => {
           <li>Positivity</li>
           <li>Purpose </li>
           <li>Determination </li>
+  
         </ul>
         <h1 className="text-gray-400  font-[Poppins] text-m mt-16 md:text-2xl lg:text-3xl">
           Welcome to [Your Name]'s Fitness World Transform Your Life with Expert
