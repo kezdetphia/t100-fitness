@@ -10,11 +10,11 @@ export default function App() {
   return (
     <div className = 'App'>
       <NavBar />
-      {/* <Banner /> */}
       <Banner2 />
       <Pricing />
       <Contact />
       <CarouselNav/>
+      
       <div>rest of the site</div>
       <div>rest of the site</div>
       <div>rest of the site</div>

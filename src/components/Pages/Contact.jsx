@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="py-10 bg-stone-900">
+    <div className="py-10 bg-black">
       <div className="p-4 text-center">
         <h1 className="text-white text-3xl pb-4 font-[Poppins]">Get in touch</h1>
       </div>
