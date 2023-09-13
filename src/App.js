@@ -6,6 +6,7 @@ import Services from "./components/Pages/Services";
 import CarouselNav from'./components/CarouselNav'
 import AboutUs from './components/Pages/AboutUs'
 import Carousel from './components/Carousel'  
+import ContactUs from './components/Pages/ContactUs'  
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Services />
       < AboutUs />
       <Contact />
+      <ContactUs/>
       <CarouselNav/>
     
       

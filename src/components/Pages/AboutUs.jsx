@@ -13,7 +13,7 @@ const AboutUs = () => {
           </h1>
           <div className="bg-customred w-12 h-1 border border-customred mb-5"></div>
       </div>
-        <p className="text-md md:text-2xl font-poppins text-customwhite m-5">
+        <p className="[font-family:'SF_Compact_Display-Regular',Helvetica] font-normal text-[#999999] text-[24px] text-justify tracking-[0.72px] leading-[36px] m-10 p-1">
         👋 Hello! I'm **Krisztian Majer**, an IFBB ELITE PRO ATHLETE and
           experienced FITNESS TRAINER, dedicated to helping you reach your
           fitness goals. With a passion for fitness, I'll guide you on your
