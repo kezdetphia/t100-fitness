@@ -1,7 +1,7 @@
 import React from "react";
 import PriceCard from "../PriceCard.jsx";
 
-const Pricing = () => {
+const Services = () => {
   const cardData = [
     {
       title: "8-Week Top Shape Diet Program",
@@ -55,4 +55,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Services;

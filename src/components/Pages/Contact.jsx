@@ -29,7 +29,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col lg:flex-row p-4 space-y-4 lg:space-y-0">
         <div className="lg:w-1/3 p-4 text-center">
-          <img src={p1} alt="Your Image" className="mx-auto max-w-xs h-auto" />
+          <img src={p1} alt="majer" className="mx-auto max-w-xs h-auto" />
         </div>
         <div className="w-full md:w-2/3 px-4 lg:px-10 py-10 bg-transparent">
           <form onSubmit={handleSubmit} className="flex flex-col space-y-6">
