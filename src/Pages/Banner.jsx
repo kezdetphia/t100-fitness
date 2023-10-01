@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import bannerbg2 from "../utilities/bannerbg2.jpg";
 import Button from '../components/Button'
+import HeaderText from "../components/HeaderText";
 
-const Banner2 = ({text}) => {
+const Banner2 = ({text, text1, text2}) => {
   const [isBannerLoaded, setIsBannerLoaded] = useState(false);
 
   useEffect(() => {
@@ -27,10 +28,8 @@ const Banner2 = ({text}) => {
         }`}
       >
         <div>
-          <h1 className="font-exo2 text-4xl font-bold  left-0 tracking-wider">
-            UNLEASH YOUR <span className="text-customred">POTENTIAL</span>
-          </h1>
-  
+          <HeaderText text1="UNLEASH YOUR" text2="POTENTIAL"/>
+         
           <p className="font-[poppins, bold] text-sm text-customgray tracking-wider m-2">PROFESSIONAL ONLINE FITNESS COACHING</p>
           <Button text=' CONTACT US' />
 

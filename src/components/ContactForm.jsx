@@ -34,7 +34,7 @@ const ContactForm = () => {
           <div className="flex flex-col w-full ">
             <span className="text-customwhite mb-2">First Name</span>
             <input
-              className="bg-customgray w-full mb-5"
+              className="bg-customgray w-full h-8 mb-5 opacity-50 "
               label="First Name"
               required
               onChange={handleChange}
@@ -47,7 +47,7 @@ const ContactForm = () => {
           <div className="flex flex-col ">
             <span className="text-customwhite mb-2">Last Name</span>
             <input
-              className="bg-customgray w-full mb-5"
+              className="bg-customgray w-full h-8 mb-5 opacity-50 "
               label="Last Name"
               required
               onChange={handleChange}
@@ -61,7 +61,7 @@ const ContactForm = () => {
         <div className="flex flex-col ">
           <span className="text-customwhite mb-2">E-Mail</span>
           <input
-            className="bg-customgray w-full mb-5"
+            className="bg-customgray w-full h-8 mb-5 opacity-50 "
             label="First Name"
             required
             onChange={handleChange}
@@ -73,19 +73,19 @@ const ContactForm = () => {
         <div className="flex flex-col ">
           <span className="text-customwhite mb-2">Phone Number</span>
           <input
-            className="bg-customgray w-full mb-5"
+            className="bg-customgray w-full h-8 mb-5 opacity-50 "
             label="Phone Number"
             required
             onChange={handleChange}
             type="tel"
-            name="phone"
+            name="phoneNumber"
             value={phoneNumber}
           />
         </div>
         <div className="flex flex-col ">
           <span className="text-customwhite mb-1">Message</span>
           <textarea
-            className="bg-customgray w-full h-40 mb-5"
+            className="bg-customgray w-full h-40 mb-5 opacity-50"
             label="Message"
             required
             onChange={handleChange}
@@ -94,10 +94,9 @@ const ContactForm = () => {
             value={message}
           />
         </div>
- 
-        <Button text='SUBMIT' width='w-full' onSubmit={handleChange}/>
+
+        <Button text="SUBMIT" width="w-full" onSubmit={handleChange} />
         {/* <button className='font-exo2 font-bold italic bg-customred text-customwhite text-m py-3 px-6 m-2 shadow-lg transition duration-500 hover:scale-110 w-full'  > SUBMIT</button> */}
-      
       </form>
     </div>
   );

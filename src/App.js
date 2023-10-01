@@ -1,7 +1,6 @@
 import "./App.css";
 import NavBar from './Pages/NavBar'
 import Banner from './Pages/Banner'
-import Contact from "./Pages/Contact";
 import Services from "./Pages/Services";
 import AboutUs from './Pages/AboutUs'
 import CarouselNav from'./components/CarouselNav'
@@ -15,7 +14,6 @@ export default function App() {
       <Banner />
       <Services />
       < AboutUs />
-      {/* <Contact /> */}
       <ContactUs/>
       <CarouselNav/>
     

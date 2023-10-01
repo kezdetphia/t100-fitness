@@ -1,17 +1,16 @@
 import React from "react";
 import bannerbg from "../utilities/bannerbg.jpg";
 import Carousel from "../components/Carousel";
+import HeaderText from "../components/HeaderText";
 
-const AboutUs = () => {
+const AboutUs = ({text1, text2, showRedLine}) => {
   return (
     <div className="flex w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${bannerbg})` }}>
 
       <div className="flex flex-col  w-1/2 items-center   ">
         <div className="text-center mt-5  ">
-          <h1 className="text-4xl font-bold font-exo2 text-customwhite my-10">
-            About <span className="text-customred">Me</span>
-          </h1>
-          <div className="bg-customred w-12 h-1 border border-customred mb-5"></div>
+          <HeaderText text1="ABOUT" text2="ME" showRedLine={true}/>
+          {/* <div className="bg-customred w-12 h-1 border border-customred mb-5"></div> */}
       </div>
         <p className="[font-family:'SF_Compact_Display-Regular',Helvetica] font-normal text-[#999999] text-[24px] text-justify tracking-[0.72px] leading-[36px] m-10 p-1">
 
