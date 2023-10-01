@@ -1,12 +1,12 @@
 import "./App.css";
-import NavBar from './components/Pages/NavBar'
-import Banner from './components/Pages/Banner'
-import Contact from "./components/Pages/Contact";
-import Services from "./components/Pages/Services";
+import NavBar from './Pages/NavBar'
+import Banner from './Pages/Banner'
+import Contact from "./Pages/Contact";
+import Services from "./Pages/Services";
+import AboutUs from './Pages/AboutUs'
 import CarouselNav from'./components/CarouselNav'
-import AboutUs from './components/Pages/AboutUs'
 import Carousel from './components/Carousel'  
-import ContactUs from './components/Pages/ContactUs'  
+import ContactUs from './Pages/ContactUs'  
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
       <Banner />
       <Services />
       < AboutUs />
-      <Contact />
+      {/* <Contact /> */}
       <ContactUs/>
       <CarouselNav/>
     

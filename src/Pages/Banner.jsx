@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import bannerbg2 from "../../utilities/bannerbg2.jpg";
-import Button from '../Button'
+import bannerbg2 from "../utilities/bannerbg2.jpg";
+import Button from '../components/Button'
 
 const Banner2 = ({text}) => {
   const [isBannerLoaded, setIsBannerLoaded] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import PriceCard from "../PriceCard.jsx";
+import PriceCard from "../components/PriceCard";
 
 const Services = () => {
   const cardData = [

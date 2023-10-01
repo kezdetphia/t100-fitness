@@ -1,10 +1,11 @@
-import React from 'react';
+const Button = ({text ,width}) => {
 
-const Button = ({text}) => {
+  const defaultClasses =  `font-exo2 font-bold italic bg-customred text-customwhite text-m py-3 px-6 my-2 shadow-lg transition duration-500 hover:scale-110`  
 
-  return (
+  const buttonClass = `${defaultClasses} ${width}`
+  return ( 
     <div>
-      <button className="font-exo2 font-bold italic bg-customred text-customwhite text-m py-3 px-6 m-2 shadow-lg transition duration-500 hover:scale-110  ">
+      <button className={buttonClass} >
         {text}
       </button>
       
