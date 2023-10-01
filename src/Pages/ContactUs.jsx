@@ -15,20 +15,4 @@ const ContactUs = ({text1, text2, showRedLine}) => {
   )
 }
 
-
-    
-// const ContactUs = ({text1, text2, showRedLine}) => {
-//   return (
-//     <div className="flex w-full bg-customdarkblack ">
-//       <div className="left flex flex-col w-1/2 bg-customblack ml-20 my-20  ">
-//         <ContactUsText />
-//       </div>
-
-//       <div className="right flex flex-col w-1/2 mr-20 my-20 bg-customblack">
-//         <ContactForm />
-//       </div>
-//     </div>
-//   );
-// };
-
 export default ContactUs;
