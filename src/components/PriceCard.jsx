@@ -3,7 +3,7 @@ import { MdOutlineDoneAll } from 'react-icons/md';
 
 const PriceCard = ({ title, price, features }) => {
   return (
-    <div className=' card-container border border-blue-50 mx-7 my-20 h-[600PX] rounded-lg shadow-lg relative text-center bg-gray-200 '>
+    <div className=' card-container border border-blue-50 mx-7  h-[600PX] rounded-lg shadow-lg relative text-center bg-gray-200 '>
       <div className='p-5 mb-5  font-[Poppins] text-lg text-gray-200 font-bold bg-black'>
         <p>{title}</p>
       </div>

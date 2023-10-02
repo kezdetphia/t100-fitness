@@ -1,6 +1,5 @@
 import React from "react";
 import bannerbg from "../utilities/bannerbg.jpg";
-import Carousel from "../components/Carousel";
 import HeaderText from "../components/HeaderText";
 
 const AboutUs = ({text1, text2, showRedLine}) => {

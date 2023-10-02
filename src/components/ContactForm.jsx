@@ -26,7 +26,7 @@ const ContactForm = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-    setButtonText("Sending...");
+    setButtonText("SENDING...");
 
     try {
       const response = await emailjs.sendForm(

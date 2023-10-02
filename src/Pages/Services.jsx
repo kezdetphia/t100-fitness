@@ -1,5 +1,6 @@
 import React from "react";
 import PriceCard from "../components/PriceCard";
+import HeaderText from "../components/HeaderText";
 
 const Services = () => {
   const cardData = [
@@ -33,7 +34,7 @@ const Services = () => {
         "Exceptional results guaranteed",
       ],
     },
-  
+
     {
       title: "PERSONALIZED FITNESS PROGRAM",
       price: "360 AED (80 USD)",
@@ -47,11 +48,16 @@ const Services = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:justify-evenly  bg-white">
+    <>
+      {/* <div className="">
+        <HeaderText text1="OUR" text2="SERVICES" />
+      </div> */}
+    <div className="h-full flex flex-col md:flex-row md:justify-evenly bg-gradient-to-b from-black bg-opacity-20 to-customblack">
       {cardData.map((card, index) => (
         <PriceCard key={index} {...card} />
       ))}
     </div>
+        </>
   );
 };
 
