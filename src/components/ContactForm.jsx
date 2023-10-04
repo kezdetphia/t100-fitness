@@ -52,12 +52,11 @@ const ContactForm = () => {
     }
   };
 
-
   return (
-    <div className="w-full h-full mr-5  bg-customgrey">
+    <div className="w-full  bg-customgrey">
       <form
         ref={form}
-        className="gap-5 text-left my-10 mx-5"
+        className="gap-5 text-left my-10 mx-5 "
         onSubmit={sendEmail}
       >
         <div className="grid grid-cols-2 gap-5  ">

@@ -7,7 +7,7 @@ const ContactUs = ({text1, text2, showRedLine}) => {
 
 
   return (
-  <div className="bg-customdarkblack md:p-10 h-full flex flex-col  md:flex-row">
+  <div className="bg-customdarkblack md:p-10 sm:p-5 h-full flex flex-col  md:flex-row">
     <ContactUsText />
     <ContactForm />
 
