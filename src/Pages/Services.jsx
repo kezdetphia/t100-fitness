@@ -5,7 +5,7 @@ import HeaderText from "../components/HeaderText";
 const Services = () => {
   const cardData = [
     {
-      title: "8-Week Top Shape Diet Program",
+      title: "8-WEEK TOP SHAPE DIET PROGRAM",
       price: "365 AED (100 USD)",
       features: [
         "Suitable for both Women and Men",
@@ -20,7 +20,7 @@ const Services = () => {
       ],
     },
     {
-      title: "8-Week Premium Online Coaching",
+      title: "8-WEEK PREMIUM ONLINE COACHING",
       price: "700 AED (200 USD)",
       features: [
         "Customized plans for all levels",
@@ -48,17 +48,19 @@ const Services = () => {
   ];
 
   return (
-    <>
-      {/* <div className="">
-        <HeaderText text1="OUR" text2="SERVICES" />
-      </div> */}
-    <div className="h-full flex flex-col md:flex-row md:justify-evenly bg-gradient-to-b from-black bg-opacity-20 to-customblack">
-      {cardData.map((card, index) => (
-        <PriceCard key={index} {...card} />
-      ))}
+ 
+  <>
+    <div className="h-full py-3 pb-10 bg-gradient-to-b from-black to-customblack flex flex-col justify-center items-center">
+      <HeaderText text1={"OUR"} text2={'SERVICES'} />
+      <div className=" flex flex-col md:flex-row md:justify-evenly pt-8">
+        {cardData.map((card, index) => (
+          <PriceCard key={index} {...card} />
+        ))}
+      </div>
     </div>
-        </>
-  );
+  </>
+);
+
 };
 
 export default Services;

@@ -1,29 +1,30 @@
-import React from 'react';
-import { MdOutlineDoneAll } from 'react-icons/md';
+import React from "react";
+import { MdOutlineDoneAll } from "react-icons/md";
+import Button from '../components/Button'
+import RedLine from "./RedLine";
 
 const PriceCard = ({ title, price, features }) => {
   return (
-    <div className=' card-container border border-blue-50 mx-7  h-[600PX] rounded-lg shadow-lg relative text-center bg-gray-200 '>
-      <div className='p-5 mb-5  font-[Poppins] text-lg text-gray-200 font-bold bg-black'>
+    <div className=" card-container border mx-7 h-[600PX] rounded-lg shadow-lg relative  bg-customblack ">
+      <div className="px-5 pt-7 font-poppins text-lg text-gray-200 font-bold">
         <p>{title}</p>
+        <RedLine />
       </div>
-      <div>
-        <span className='font-semibold mb-5 p-5 text-lg'>{price}</span>
-      </div>
-      <div className>
-        <ul className='py-3 space-y-1 list-disc list-inside text-xs md:text-base font-semibold md:font-normal  font-[Poppins]'>
+      <div className="pt-7 ">
+        <ul className="mx-3 py-3 space-y-1 list-disc list-inside text-xs md:text-base font-semibold md:font-normal font-poppins">
           {features.map((feature, index) => (
-            <li key={index} className='flex items-center justify-center'>
-              <MdOutlineDoneAll className='m-2' /> {feature}
+            <li key={index} className="flex items-center  text-customgray">
+              <MdOutlineDoneAll className="m-2" /> {feature}
             </li>
           ))}
         </ul>
       </div>
-      {/* <div className='absolute bottom-18 left-0 mt-3 ml-3'>
-        <span className=''>Elevate your journey with us!</span>
-      </div> */}
-      <div className='absolute bottom-10 inset-x-0 flex justify-center'>
-        <button className=' border rounded-m shadow-lg bg-black text-gray-200 px-5 py-3 hover:bg-gray-400 hover:text-black text-bold font-[Poppins] cursor-pointer'>Join Me!</button>
+   
+      <div className="absolute bottom-10 inset-x-0 flex flex-col justify-center">
+        <span className="font-semibold mb-1 p-5 text-lg text-poppins text-customred">
+          {price}
+        </span>
+        <Button text="JOIN ME"></Button>
       </div>
     </div>
   );
