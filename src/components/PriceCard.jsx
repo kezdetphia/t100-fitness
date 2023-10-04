@@ -5,7 +5,7 @@ import RedLine from "./RedLine";
 
 const PriceCard = ({ title, price, features }) => {
   return (
-    <div className=" card-container border mx-7 h-[600PX] rounded-lg shadow-lg relative  bg-customblack ">
+    <div className=" card-container mb-7 md:mb-0 mx-7 h-[600PX] rounded-lg shadow-lg relative  bg-customblack ">
       <div className="px-5 pt-7 font-poppins text-lg text-gray-200 font-bold">
         <p>{title}</p>
         <div className="pt-2">
