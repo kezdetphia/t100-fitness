@@ -8,10 +8,12 @@ const PriceCard = ({ title, price, features }) => {
     <div className=" card-container border mx-7 h-[600PX] rounded-lg shadow-lg relative  bg-customblack ">
       <div className="px-5 pt-7 font-poppins text-lg text-gray-200 font-bold">
         <p>{title}</p>
-        <RedLine />
+        <div className="pt-2">
+          <RedLine />
+        </div>
       </div>
       <div className="pt-7 ">
-        <ul className="mx-3 py-3 space-y-1 list-disc list-inside text-xs md:text-base font-semibold md:font-normal font-poppins">
+        <ul className="mx-3 py-1 space-y-1 list-disc list-inside text-xs md:text-base font-semibold md:font-normal font-poppins">
           {features.map((feature, index) => (
             <li key={index} className="flex items-center  text-customgray">
               <MdOutlineDoneAll className="m-2" /> {feature}

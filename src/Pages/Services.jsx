@@ -50,7 +50,7 @@ const Services = () => {
   return (
  
   <>
-    <div className="h-full py-3 pb-10 bg-gradient-to-b from-black to-customblack flex flex-col justify-center items-center">
+    <div className="h-full py-3 pb-10 bg-customdarkblack flex flex-col justify-center items-center">
       <HeaderText text1={"OUR"} text2={'SERVICES'} />
       <div className=" flex flex-col md:flex-row md:justify-evenly pt-8">
         {cardData.map((card, index) => (
