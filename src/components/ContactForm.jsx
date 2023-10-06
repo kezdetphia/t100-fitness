@@ -112,7 +112,7 @@ const ContactForm = () => {
           <div className="flex flex-col w-full ">
             <label className="text-customwhite mb-2">Message</label>
             <textarea
-              className="bg-customgray w-full mb-8 opacity-50 h-24 "
+              className="bg-customgray w-full mb-5 opacity-50 h-24 "
               type="text"
               name="message"
               value={formDetails.message}

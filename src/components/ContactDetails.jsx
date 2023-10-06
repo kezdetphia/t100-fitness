@@ -57,7 +57,7 @@ const ContactDetails = ({
       {/* Add more contact details as needed */}
 
       <div className="flex pb-5  ">
-        <div className="flex flex-col mt-5 w-full">
+        <div className="flex flex-col mt-10 w-full">
           <span className="text-customwhite flex ml-5  [font-family:'SF_Compact_Display-Regular',Helvetica]">
             Business Hours
           </span>
