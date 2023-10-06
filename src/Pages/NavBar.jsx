@@ -31,6 +31,10 @@ const NavBar = () => {
     };
   }, []);
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div
       className={`${
@@ -93,6 +97,7 @@ const NavBar = () => {
         <ul className=" md:flex md:items-center md:pb-0 md:pt-1 md:static left-0 right-0 md:w-auto md:pl-0 pl-0 py-6 border shadow-lg md:shadow-none md:border-none">
           {Links.map((link) => (
             <li
+             
               key={link.name}
               className={`font-poppins font-bold md:pr-16 md:flex-grow md:text-sm md:flex md:items-center py-3 transition-all duration400 ease-in  hover:scale-110 ${
                 scrolled ? " md:text-black" : "md:text-customgray"
@@ -104,6 +109,7 @@ const NavBar = () => {
                 smooth={true}
                 offset={-65}
                 duration={500}
+                onClick={closeMenu}
               >
                 {link.name}
               </Link>
