@@ -36,7 +36,7 @@ const InstagramIcon = ({ showInstagramTitle }) => {
             </g>
           </g>
         </svg>
-        {showInstagramTitle && <div className=" text-customgray">Insragram</div>}
+        {showInstagramTitle && <div className=" text-customgray">Instagram</div>}
       </a>
     </div>
   );

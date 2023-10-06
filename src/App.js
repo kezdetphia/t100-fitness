@@ -1,22 +1,21 @@
 import "./App.css";
-import NavBar from './Pages/NavBar'
-import Banner from './Pages/Banner'
+import NavBar from "./Pages/NavBar";
+import Banner from "./Pages/Banner";
 import Services from "./Pages/Services";
-import AboutUs from './Pages/AboutUs'
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import { useRef } from "react";
 
-import ContactUs from './Pages/ContactUs'  
-
-export default function App() {
+export default function App() { 
+  
   return (
-    <div className = 'App'>
+    <div className="App">
       <NavBar />
-      <Banner />
-      <Services />
-      <ContactUs/>
+      <Banner   />
+      <Services  />
+      <ContactUs  />
       {/* < AboutUs /> */}
 
-    
-      
       <div>rest of the site</div>
       <div>rest of the site</div>
       <div>rest of the site</div>

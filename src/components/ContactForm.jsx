@@ -16,7 +16,6 @@ const ContactForm = () => {
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState("SUBMIT");
   const [status, setStatus] = useState({});
-
   const onFormUpdate = (category, value) => {
     setFormDetails({
       ...formDetails,

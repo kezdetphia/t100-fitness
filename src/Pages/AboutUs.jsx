@@ -4,7 +4,7 @@ import HeaderText from "../components/HeaderText";
 
 const AboutUs = ({text1, text2, showRedLine}) => {
   return (
-    <div className="flex w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${bannerbg})` }}>
+    <div id='about' className="flex w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${bannerbg})` }}>
 
       <div className="flex flex-col  w-1/2 items-center   ">
         <div className="text-center mt-5  ">

@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 import HeaderText from "../components/HeaderText";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "SERVICES", link: "/" },
+    { name: "HOME", link: "banner" },
+    { name: "ABOUT", link: "about" },
+    { name: "SERVICES", link: "services" },
     { name: "VLOG", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "CONTACT", link: "contactUs" },
   ];
 
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,7 +21,7 @@ const NavBar = () => {
         setScrolled(true);
       } else {
         setScrolled(false);
-      }	
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -40,8 +40,26 @@ const NavBar = () => {
       } fixed top-0 left-0 w-full flex justify-between py-1 px-3 md:py-1 md:px-10 z-10 `}
     >
       <div className="font-exo2 md:text-2xl md:flex md:items-center cursor-pointer transition duration-500 hover:scale-105 py-3">
-        <span className="text-customred ">MAJER</span>{" "}
-        <span className="ml-2">FITNESS</span>
+        <Link
+          to={"banner"}
+          spy={true}
+          smooth={true}
+          offset={-65}
+          duration={500}
+          className="text-customred "
+        >
+          MAJER
+        </Link>{" "}
+        <Link
+          to={"banner"}
+          spy={true}
+          smooth={true}
+          offset={-65}
+          duration={500}
+          className="ml-2"
+        >
+          FITNESS
+        </Link>
       </div>
       <div className="md:hidden pt-3 pr-3  ">
         {menuOpen ? (
@@ -80,7 +98,15 @@ const NavBar = () => {
                 scrolled ? " md:text-black" : "md:text-customgray"
               } md:border-none text-black hover:text-customred cursor-pointer`}
             >
-              <a href={link.link}>{link.name}</a>
+              <Link
+                to={link.link}
+                spy={true}
+                smooth={true}
+                offset={-65}
+                duration={500}
+              >
+                {link.name}
+              </Link>
             </li>
           ))}
         </ul>
