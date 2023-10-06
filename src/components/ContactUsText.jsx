@@ -1,6 +1,8 @@
 import React from "react";
 import HeaderText from "./HeaderText"; // Make sure to import HeaderText
 import ContactDetails from "../components/ContactDetails";
+import animationData from '../utilities/gym.json'
+import Lottie from "lottie-react";
 
 const ContactUsText = () => {
   return (
@@ -15,6 +17,7 @@ const ContactUsText = () => {
         </span>
       </div>
       <ContactDetails />
+
     </div>
   );
 };

@@ -3,6 +3,9 @@ import YoutubeIcon from "./Icons/YoutubeIcon";
 import FacebookIcon from "./Icons/FacebookIcon";
 import InstagramIcon from "./Icons/InstagramIcon";
 
+import animationData from "../utilities/gym.json";
+import Lottie from "lottie-react";
+
 const ContactDetails = ({
   showYoutubeTitle,
   showFacebookTitle,
@@ -58,9 +61,14 @@ const ContactDetails = ({
           <span className="text-customwhite flex ml-5  [font-family:'SF_Compact_Display-Regular',Helvetica]">
             Business Hours
           </span>
-          <span className="text-customgray pl-5 flex justify-start ">Mon-Fri 10am - 8pm</span>
-          <span className="text-customgray pl-5 flex justify-start ">Sat, Sun Closed</span>
+          <span className="text-customgray pl-5 flex justify-start ">
+            Mon-Fri 10am - 8pm
+          </span>
+          <span className="text-customgray pl-5 flex justify-start ">
+            Sat, Sun Closed
+          </span>
         </div>
+        <Lottie className="w-40" animationData={animationData} />
       </div>
     </div>
   );

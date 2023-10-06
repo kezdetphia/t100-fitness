@@ -4,19 +4,19 @@ import Banner from "./Pages/Banner";
 import Services from "./Pages/Services";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
-import { useRef } from "react";
 
-export default function App() { 
-  
+
+export default function App() {
+
   return (
     <div className="App">
       <NavBar />
-      <Banner   />
-      <Services  />
-      <ContactUs  />
+      <Banner />
+      <Services />
+      <ContactUs />
       {/* < AboutUs /> */}
 
-      <div>rest of the site</div>
+
       <div>rest of the site</div>
       <div>rest of the site</div>
     </div>
