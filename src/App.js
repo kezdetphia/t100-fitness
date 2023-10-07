@@ -14,7 +14,7 @@ export default function App() {
       <Banner />
       <Services />
       <ContactUs />
-      {/* < AboutUs /> */}
+      < AboutUs />
 
 
       <div>rest of the site</div>
