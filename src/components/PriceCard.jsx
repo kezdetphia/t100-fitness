@@ -9,7 +9,7 @@ const PriceCard = ({ title, price, features }) => {
       <div className="px-5 pt-7 font-poppins text-lg text-gray-200 font-bold">
         <p>{title}</p>
         <div className="pt-2">
-          <RedLine />
+          <RedLine /> 
         </div>
       </div>
       <div className="pt-7 ">
