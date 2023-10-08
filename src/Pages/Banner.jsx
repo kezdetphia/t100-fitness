@@ -18,7 +18,7 @@ const Banner2 = ({text, text1, text2}) => {
       id="banner"
       className="w-screen h-screen relative flex flex-col md:flex-row sm:flex-row pt-10"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(${bannerbg2})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${bannerbg2})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

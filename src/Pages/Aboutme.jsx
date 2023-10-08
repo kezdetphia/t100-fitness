@@ -59,12 +59,12 @@ const Aboutme = ({ text1, text2 }) => {
       className="w-full h-full bg-customdarkblack relative group md:flex-col sm:flex-col "
     >
       {/* headertext */}
-      <div className="flex items-center justify-center md:pt-10">
+      <div className="flex items-center justify-center md:pt-10 pt-5">
         <HeaderText text1="ABOUT" text2={"ME"} />
       </div>
 
       <div className="flex-col sm:flex-row md:flex">
-        <div className="md:w-1/2 sm:w1/2 flex  p-3 pb-2 ">
+        <div className="md:w-1/2 sm:w1/2 flex p-3 pb-2 ">
           <div className=" max-w-[790px] w-full md:h-[700px] h-[400px] py-8 px-4 mx-auto my-auto ">
             {/* bg image div */}
             <div
