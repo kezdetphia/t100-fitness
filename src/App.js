@@ -4,6 +4,8 @@ import Banner from "./Pages/Banner";
 import Services from "./Pages/Services";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
+import Aboutme from "./Pages/Aboutme";
+
 
 
 export default function App() {
@@ -14,7 +16,8 @@ export default function App() {
       <Banner />
       <Services />
       <ContactUs />
-      < AboutUs />
+      {/* < AboutUs /> */}
+      <Aboutme />
 
 
       <div>rest of the site</div>
