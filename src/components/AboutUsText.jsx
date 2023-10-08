@@ -3,19 +3,34 @@ import React, { useState, useEffect } from "react";
 const AboutUsText = () => {
   const texts = [
     {
-      text: "hello my name is",
+      text: "Hello, My name is Krisztian Majer. I'm a passionate personal trainer dedicated to helping you achieve your fitness goals.",
     },
     {
-      text: "i build muscle",
+      text: "With years of experience, I'm committed to your health and well-being",
     },
     {
-      text: "yoooooo",
+      text: "My training approach is tailored to your unique needs and abilities",
     },
     {
-      text: "im 200meter tall",
+      text: "Let's work together to transform your fitness journey into a success story",
     },
     {
-      text: "i weitgh 250",
+      text: "I believe in the power of consistent effort and a positive mindset",
+    },
+    {
+      text: "Your fitness goals are my top priority; let's conquer them together",
+    },
+    {
+      text: "I believe in the power of consistent effort and a positive mindset",
+    },
+    {
+      text: "Whether you're a beginner or an athlete, I'm here to guide and motivate you",
+    },
+    {
+      text: "I'm not just your trainer; I'm your partner in achieving a healthier lifestyle.",
+    },
+    {
+      text: "Whether you're a beginner or an athlete, I'm here to guide and motivate you",
     },
   ];
 
@@ -46,26 +61,28 @@ const AboutUsText = () => {
 
   return (
     <div className="sm:w-1/2 md:1/2 md:pl-5 pb-6 p-3 flex justify-center">
-      <div className="max-w-[790px] w-full md:h-[700px] h-[300px] py-8 px-4 relative group">
-        <div className="md:w-full h-full   transition duration-500 ease-in-out">
-          <h2>{texts[currentIndex].text}</h2>
+      <div className="max-w-[790px] w-full md:h-[700px] h-[200px] sm:py-4 md:py-8 px-4 relative group">
+        <div className="md:w-full h-full bg-customgrey flex items-center justify-center rounded-xl transition duration-500 ease-in-out">
+          <p className="text-customgray font-poppins text-l md:text-6xl px-5 text-center md:tracking-[1px] md:leading-[80px] leading-[30px]">
+            {texts[currentIndex].text}
+          </p>
         </div>
 
         {/* left button */}
-        <div
+        {/* <div
           onClick={prevText}
           className="md:hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 cursor-pointer"
         >
           <button>L</button>
-        </div>
+        </div> */}
 
         {/* right button */}
-        <div
+        {/* <div
           onClick={nextText}
           className="md:hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl p-2 cursor-pointer"
         >
           <button className="cursor-pointer">R</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

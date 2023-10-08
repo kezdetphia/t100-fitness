@@ -49,8 +49,8 @@ const Carousel = () => {
 
   return (
     
-    <div className="md:w-1/2 sm:w1/2 flex p-3 pb-6 ">
-      <div className=" max-w-[790px] w-full md:h-[700px] h-[300px] py-8 px-4 mx-auto my-auto relative group">
+    <div className="md:w-1/2 sm:w1/2 flex p-3 pb-2 ">
+      <div className=" max-w-[790px] w-full md:h-[700px] h-[400px] py-8 px-4 mx-auto my-auto relative group">
         {/* bg image div */}
         <div
           className="md:w-full h-full rounded-2xl bg-cover  transition duration-500 ease-in-out"
