@@ -11,7 +11,7 @@ import pic1 from "../utilities/pic1.jpg";
 const Aboutme = ({ text1, text2 }) => {
   const slides = [
     {
-      url: "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVhY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60",
+      url: p4,
       text: "Hello, My name is Krisztian Majer. I'm a passionate personal trainer dedicated to helping you achieve your fitness goals.",
     },
     {
