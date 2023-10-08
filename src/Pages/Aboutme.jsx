@@ -59,7 +59,7 @@ const Aboutme = ({ text1, text2 }) => {
       className="w-full h-full bg-customdarkblack relative group md:flex-col sm:flex-col "
     >
       {/* headertext */}
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center md:pt-10">
         <HeaderText text1="ABOUT" text2={"ME"} />
       </div>
 
