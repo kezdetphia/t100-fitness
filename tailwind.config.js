@@ -15,6 +15,7 @@ module.exports = {
         customblack: "#262626",
         customdarkgray: "#1A1A1A",
         customgrey: "#2C2C2C",
+        customblackblack: "#050505",
       },
     },
   },

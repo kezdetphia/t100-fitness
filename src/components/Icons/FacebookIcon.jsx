@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FacebookIcon = ({ showFacebookTitle }) => {
+const FacebookIcon = ({ showFacebookTitle, customsize }) => {
   return (
     <div>
       <a
@@ -13,7 +13,7 @@ const FacebookIcon = ({ showFacebookTitle }) => {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          className="w-5 mr-3"
+          className={`${customsize}`}
           viewBox="0,0,256,256"
         >
           <g

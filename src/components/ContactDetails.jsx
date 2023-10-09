@@ -10,19 +10,21 @@ const ContactDetails = ({
   showYoutubeTitle,
   showFacebookTitle,
   showInstagramTitle,
+  customsize
+  
 }) => {
   return (
     <div className="w-full mt-8">
       <div className="flex items-center ml-5 pb-2">
-        <InstagramIcon showInstagramTitle={true} />
+        <InstagramIcon showInstagramTitle={true} customsize={"w-5 mr-3"} />
       </div>
 
       <div className="flex items-center ml-5 pb-2">
-        <FacebookIcon showFacebookTitle={true} />
+        <FacebookIcon showFacebookTitle={true} customsize={"w-5 mr-3"} />
       </div>
 
       <div className="flex items-center ml-5 pb-2">
-        <YoutubeIcon showYoutubeTitle={true} />
+        <YoutubeIcon showYoutubeTitle={true} customsize={"w-5 mr-3"} />
       </div>
 
       <div className="flex items-center ml-5 pb-2">
@@ -55,7 +57,6 @@ const ContactDetails = ({
         <div className="text-customgray">info@majerfitness.com</div>
       </div>
 
-  
       {/* Add more contact details as needed */}
 
       <div className="flex pb-5  ">

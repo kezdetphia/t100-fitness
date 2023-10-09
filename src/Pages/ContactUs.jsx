@@ -6,7 +6,7 @@ const ContactUs = ({ text1, text2, showRedLine }) => {
   return (
     <div
       id="contactUs"
-      className="bg-customdarkblack md:p-10 sm:p-5 h-full flex flex-col md:px-20 md:flex-row"
+      className="bg-customdarkblack h-full  flex sm:p-5 flex-col  md:p-10 md:px-20 md:flex-row"
     >
       <ContactUsText />
       <ContactForm />

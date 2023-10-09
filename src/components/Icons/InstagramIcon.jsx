@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InstagramIcon = ({ showInstagramTitle }) => {
+const InstagramIcon = ({ showInstagramTitle, customsize }) => {
   return (
     <div>
       <a
@@ -14,7 +14,7 @@ const InstagramIcon = ({ showInstagramTitle }) => {
           x="0px"
           y="0px"
           viewBox="0,0,256,256"
-          className="w-5 mr-3"
+          className={`${customsize}`}
         >
           <g
             fill="#ee393d"

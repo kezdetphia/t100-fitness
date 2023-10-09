@@ -83,7 +83,7 @@ const Aboutme = ({ text1, text2 }) => {
           {/* text carouse */}
           <div className="sm:w-1/2 md:1/2 flex ">
             <div className="max-w-[790px] w-full md:h-[600px] h-[200px] py-8 px-4   ">
-              <div className="md:w-full h-full bg-customgrey flex items-center justify-center rounded-xl transition duration-500 ease-in-out shadow-md shadow-customred">
+              <div className="md:w-full h-full bg-customdarkblack flex items-center justify-center rounded-xl transition duration-500 ease-in-out shadow-md shadow-customred">
                 <p className="text-customgray font-poppins text-l md:text-3xl lg:text-4xl px-5 text-center md:tracking-[1px] lg:tracking-[1px] md:leading-[80px] lg:leading-[80px] leading-[30px]">
                   {slides[currentIndex].text}
                 </p>
