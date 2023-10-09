@@ -14,7 +14,7 @@ const Aboutme = ({ text1, text2 }) => {
   const slides = [
     {
       url: p4,
-      text: "Hello, My name is Krisztian Majer. I'm a passionate personal trainer dedicated to helping you achieve your fitness goals.",
+      text: `HI, I'M MAJER KRISZTIAN . I'm a passionate personal trainer dedicated to helping you achieve your fitness goals.`,
     },
     {
       url: bg2,

@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineDoneAll } from "react-icons/md";
 import Button from '../components/Button'
 import RedLine from "./RedLine";
+import { Link } from "react-scroll";
 
 const PriceCard = ({ title, price, features }) => {
   return (
@@ -26,7 +27,16 @@ const PriceCard = ({ title, price, features }) => {
         <span className="font-semibold mb-1 p-5 text-lg text-poppins text-customred">
           {price}
         </span>
-        <Button text="JOIN ME"></Button>
+        <Link
+          to={'contactUs'}
+          spy={true}
+          smooth={true}
+          offset={-65}
+          duration={500}
+          
+        >
+          <Button to="contactUs" text="JOIN ME"></Button>
+        </Link>
       </div>
     </div>
   );
