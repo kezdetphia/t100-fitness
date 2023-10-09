@@ -14,6 +14,18 @@ const ContactDetails = ({
   return (
     <div className="w-full mt-8">
       <div className="flex items-center ml-5 pb-2">
+        <InstagramIcon showInstagramTitle={true} />
+      </div>
+
+      <div className="flex items-center ml-5 pb-2">
+        <FacebookIcon showFacebookTitle={true} />
+      </div>
+
+      <div className="flex items-center ml-5 pb-2">
+        <YoutubeIcon showYoutubeTitle={true} />
+      </div>
+
+      <div className="flex items-center ml-5 pb-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -43,17 +55,7 @@ const ContactDetails = ({
         <div className="text-customgray">info@majerfitness.com</div>
       </div>
 
-      <div className="flex items-center ml-5 pb-2">
-        <InstagramIcon showInstagramTitle={true} />
-      </div>
-
-      <div className="flex items-center ml-5 pb-2">
-        <FacebookIcon showFacebookTitle={true} />
-      </div>
-
-      <div className="flex items-center ml-5 pb-2 mb-3">
-        <YoutubeIcon showYoutubeTitle={true} />
-      </div>
+  
       {/* Add more contact details as needed */}
 
       <div className="flex pb-5  ">

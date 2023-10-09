@@ -4,7 +4,7 @@ const InstagramIcon = ({ showInstagramTitle }) => {
   return (
     <div>
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/krisztianmajer_elitepro/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center"
@@ -36,7 +36,9 @@ const InstagramIcon = ({ showInstagramTitle }) => {
             </g>
           </g>
         </svg>
-        {showInstagramTitle && <div className=" text-customgray">Instagram</div>}
+        {showInstagramTitle && (
+          <div className=" text-customgray">Instagram</div>
+        )}
       </a>
     </div>
   );

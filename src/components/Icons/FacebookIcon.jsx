@@ -4,7 +4,7 @@ const FacebookIcon = ({ showFacebookTitle }) => {
   return (
     <div>
       <a
-        href="https://www.facebook.com/"
+        href="https://www.facebook.com/majer.krisztian88"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center" // Add this class to style the anchor as a flex container
@@ -36,9 +36,7 @@ const FacebookIcon = ({ showFacebookTitle }) => {
             </g>
           </g>
         </svg>
-        {showFacebookTitle && (
-          <div className="text-customgray ">Krisztian Majer</div>
-        )}
+        {showFacebookTitle && <div className="text-customgray ">Facebook</div>}
       </a>
     </div>
   );

@@ -5,11 +5,11 @@ import RedLine from "./RedLine";
 
 const PriceCard = ({ title, price, features }) => {
   return (
-    <div className=" card-container mb-7 md:mb-0  mx-7 h-[650px] sm:h-[600px]   rounded-lg shadow-lg relative   bg-customblack ">
+    <div className=" card-container mb-7 md:mb-0  mx-7 h-[650px] sm:h-[600px] rounded-lg shadow-lg relative bg-customblack  hover:shadow-customred transition duration-500 hover:scale-105 ">
       <div className="px-5 pt-7 font-poppins text-lg text-gray-200 font-bold">
         <p>{title}</p>
         <div className="pt-2">
-          <RedLine /> 
+          <RedLine />
         </div>
       </div>
       <div className="pt-7 ">
@@ -21,7 +21,7 @@ const PriceCard = ({ title, price, features }) => {
           ))}
         </ul>
       </div>
-   
+
       <div className="absolute bottom-10 inset-x-0 flex flex-col justify-center">
         <span className="font-semibold mb-1 p-5 text-lg text-poppins text-customred">
           {price}

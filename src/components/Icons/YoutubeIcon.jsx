@@ -4,7 +4,7 @@ const YoutubeIcon = ({ showYoutubeTitle }) => {
   return (
     <div>
       <a
-        href="https://www.youtube.com"
+        href="https://www.youtube.com/@krisztianmajer_elitepro"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center"
