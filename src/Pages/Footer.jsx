@@ -21,7 +21,7 @@ const Footer = ({ text1, text2, customsize }) => {
             </p>
           </div>
 
-          <div className="icons w-full sm:justify-start flex justify-evenly   pt-14  p-5 space-x-4 ">
+          <div className="icons w-full sm:justify-start flex justify-evenly     p-5 space-x-4 ">
             <FacebookIcon customsize={"w-10 mr-3"} />
             <InstagramIcon customsize={"w-10 mr-3"} />
             <FacebookIcon customsize={"w-10 mr-3"} />
