@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import bannerbg2 from "../utilities/bannerbg2.jpg";
+import m11 from '../utilities/majer/m11.jpg'
 import Button from '../components/Button'
 import HeaderText from "../components/HeaderText";
 import { Link } from "react-scroll";
@@ -18,7 +19,7 @@ const Banner2 = ({text, text1, text2}) => {
       id="banner"
       className="w-screen h-screen relative flex flex-col md:flex-row sm:flex-row pt-10"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${bannerbg2})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${m11})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
