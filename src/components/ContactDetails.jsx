@@ -27,12 +27,12 @@ const ContactDetails = ({
         <YoutubeIcon showYoutubeTitle={true} customsize={"w-5 mr-3"} />
       </div>
 
-      <div className="flex items-center ml-5 pb-2 duration-500 hover:scale-110">
+      <div className="flex items-center ml-5 pb-2  ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="w-5 mr-3 text-customred"
+          className="w-5 mr-3 text-customred  "
         >
           <path
             fillRule="evenodd"
@@ -40,7 +40,9 @@ const ContactDetails = ({
             clipRule="evenodd"
           />
         </svg>
-        <div className="text-customgray">+917-497-2035</div>
+        <div className="text-customgray ">
+          +917-497-2035
+        </div>
       </div>
 
       <div className="flex items-center ml-5 pb-2">
