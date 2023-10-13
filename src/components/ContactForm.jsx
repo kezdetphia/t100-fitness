@@ -56,7 +56,7 @@ const ContactForm = () => {
       <form
         ref={form}
         className="gap-5 text-left my-10 mx-5 "
-        onSubmit={sendEmail}
+        onSubmit={sendEmail} 
       >
         <div className="grid grid-cols-2 gap-5  ">
           <div className="flex flex-col w-full ">
@@ -122,6 +122,7 @@ const ContactForm = () => {
         </div >
         <Button text={buttonText} width="w-full" type="submit" />
       </form>
+      
     </div>
   );
 };
