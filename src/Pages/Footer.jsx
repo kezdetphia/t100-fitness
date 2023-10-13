@@ -86,7 +86,7 @@ const Footer = ({ width, text1, text2, customsize }) => {
           </div>
         </div>
         {/* newsletter-div */}
-        <div className="sm:w-1/3 w-full sm:flex-col sm:text-start  pt-5 font-poppins   ">
+        <div className="sm:w-1/3 w-full sm:flex-col sm:text-start  pt-5 font-poppins px-7   ">
           <p className="text-white pb-5 text-2xl font-bold">Subsribe now</p>
           <p className="text-customgray pb-5">
             Sign up for our newsletter to get informed about our deals
