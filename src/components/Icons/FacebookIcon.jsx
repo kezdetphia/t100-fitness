@@ -7,7 +7,7 @@ const FacebookIcon = ({ showFacebookTitle, customsize }) => {
         href="https://www.facebook.com/majer.krisztian88"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center" // Add this class to style the anchor as a flex container
+        className="flex items-center transition duration-500 hover:scale-110" // Add this class to style the anchor as a flex container
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -27,7 +27,7 @@ const ContactDetails = ({
         <YoutubeIcon showYoutubeTitle={true} customsize={"w-5 mr-3"} />
       </div>
 
-      <div className="flex items-center ml-5 pb-2">
+      <div className="flex items-center ml-5 pb-2 duration-500 hover:scale-110">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

@@ -7,7 +7,7 @@ const YoutubeIcon = ({ showYoutubeTitle, customsize }) => {
         href="https://www.youtube.com/@krisztianmajer_elitepro?sub_confirmation=1"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center"
+        className="flex items-center duration-500 hover:scale-110"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

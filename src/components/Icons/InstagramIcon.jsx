@@ -7,14 +7,14 @@ const InstagramIcon = ({ showInstagramTitle, customsize }) => {
         href="https://www.instagram.com/krisztianmajer_elitepro/"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center"
+        className="flex items-center duration-500 hover:scale-110"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
           viewBox="0,0,256,256"
-          className={`${customsize}`}
+          className={`${customsize} `}
         >
           <g
             fill="#ee393d"
