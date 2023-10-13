@@ -9,11 +9,12 @@ const BeforeAfterCard = ({prop}) => {
       className="
         flex
         justify-center
-
-        p-6 w-[500px] h-[500px] bg-slate-300 md:p-10  md:bg-customdarkblack
+  
+        sm:w-[300px] sm:h-[200px] bg-slate-300 p-2  md:bg-customdarkblack
         items-center
         drop-shadow-md	
-        rounded-md"
+        rounded-md
+          transition-transform scale-10"
     >
       <div
         className="md:w-full h-full rounded-2xl bg-cover transition duration-500 ease-in-out "

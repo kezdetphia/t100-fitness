@@ -18,8 +18,8 @@ export default function App() {
       <Aboutme />
       <Services />
       <ContactUs />
-      <Footer />
       <BeforeAfter />
+      <Footer />
       {/* <YoutubePage /> */}
 
       <div>rest of the site</div>

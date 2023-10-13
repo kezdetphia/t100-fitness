@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import HeaderText from "../components/HeaderText";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import RedLine from "../components/RedLine";
 
 import bg from "../utilities/bg.jpg";
 import bg2 from "../utilities/bg2.jpg";
@@ -148,7 +149,11 @@ const Aboutme = ({ text1, text2 }) => {
     >
       {/* headertext */}
       <div className="flex items-center justify-center md:pt-10 pt-5">
+      <div>
+
         <HeaderText text1="ABOUT" text2={"ME"} />
+        <RedLine />
+      </div>
       </div>
 
       <div className="relative group">
