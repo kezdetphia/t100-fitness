@@ -110,7 +110,7 @@ const Footer = ({ width, text1, text2, customsize }) => {
             Pages
           </h1>
 
-          <div className="text-customgray flex sm:flex-col space-x-3 sm:space-x-0 justify-evenly  sm:space-y-1 cursor-pointer ">
+          <div className="text-customgray flex sm:flex-col space-x-3 sm:space-x-0 justify-evenly sm:pt-2  sm:space-y-7 cursor-pointer ">
             <Link
               to={"banner"}
               spy={true}
@@ -138,7 +138,7 @@ const Footer = ({ width, text1, text2, customsize }) => {
             >
               Services
             </Link>
-            <Link>Vlog</Link>
+            {/* <Link>Vlog</Link> */}
             <Link
               to={"contactUs"}
               spy={true}
