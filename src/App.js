@@ -24,8 +24,7 @@ export default function App() {
       {/* <Challenge /> */}
       {/* <YoutubePage /> */}
 
-      <div>rest of the site</div>
-      <div>rest of the site</div>
+    
     </div>
   );
 }
