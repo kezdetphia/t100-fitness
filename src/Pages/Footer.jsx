@@ -153,7 +153,7 @@ const Footer = ({ width, text1, text2, customsize }) => {
       </div>
 
       <div className="w-full sm:w-1/3  text-customwhite pt-8 flex-col ">
-        <p className="">@2023 Majer Fitness. All Rights Reserved </p>
+        <p className="text-sm text-start sm:pl-3 pl-1 ">@2023 Majer Fitness. All Rights Reserved </p>
       </div>
     </div>
   );

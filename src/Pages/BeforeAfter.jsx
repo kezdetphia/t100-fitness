@@ -29,6 +29,7 @@ function BeforeAfter({ text1, text2 }) {
 
   const [cards, setCards] = useState(initalState);
   const [isHovered, setIsHovered] = useState(false);
+  const [isButtonVisible, setIsButtonVisible]=useState(false)
 
   const handleLeftClick = (isLeft) => {
     const prevState = [...cards];
@@ -99,16 +100,16 @@ function BeforeAfter({ text1, text2 }) {
       </div>
 
       <div
-        className="flex  cursor-pointer"
+        className="flex cursor-pointer w-full h-full"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <div
-          className="text-xl md:text-5xl cursor-pointer"
+          className="hidden text-xl md:text-5xl cursor-pointer"
           onClick={() => handleLeftClick()}
         >
           {"<"}
-        </div>
+        </div >
 
         {cards
           .filter((f) => f.active === true)
@@ -117,7 +118,7 @@ function BeforeAfter({ text1, text2 }) {
             <BeforeAfterCard key={index} prop={card.url} />
           ))}
         <div
-          className="text-xl md:text-5xl cursor-pointer"
+          className="hidden text-xl md:text-5xl cursor-pointer"
           onClick={() => handleRightClick()}
         >
           {">"}

@@ -7,6 +7,7 @@ import Aboutme from "./Pages/Aboutme";
 import Footer from "./Pages/Footer";
 import YoutubePage from "./Pages/YoutubePage";
 import BeforeAfter from "./Pages/BeforeAfter";
+import Challenge from "./Pages/Challenge";
 
 
 export default function App() {
@@ -18,8 +19,9 @@ export default function App() {
       <Aboutme />
       <Services />
       <ContactUs />
-      <BeforeAfter />
+      {/* <BeforeAfter /> */}
       <Footer />
+      {/* <Challenge /> */}
       {/* <YoutubePage /> */}
 
       <div>rest of the site</div>
