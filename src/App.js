@@ -21,10 +21,6 @@ export default function App() {
       <ContactUs />
       {/* <BeforeAfter /> */}
       <Footer />
-      {/* <Challenge /> */}
-      {/* <YoutubePage /> */}
-
-    
     </div>
   );
 }

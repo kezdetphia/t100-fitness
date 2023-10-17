@@ -1,12 +1,9 @@
-import m1 from "../utilities/majer/m1.jpg";
-import m2 from "../utilities/majer/m2.jpg";
-import m3 from "../utilities/majer/m3.jpg";
-import m4 from "../utilities/majer/m4.jpg";
-import m5 from "../utilities/majer/m5.jpg";
-import m6 from "../utilities/majer/m6.jpg";
-import m7 from "../utilities/majer/m7.jpg";
-import m8 from "../utilities/majer/m8.jpg";
-import m9 from "../utilities/majer/m9.jpg";
+import m1 from "../utilities/arnold/m1.png";
+import m2 from "../utilities/arnold/m2.png";
+import m3 from "../utilities/arnold/m3.png";
+import m4 from "../utilities/arnold/m4.png";
+import m5 from "../utilities/arnold/m5.png";
+import m6 from "../utilities/arnold/m6.png";
 
 import React, { useState, useEffect } from "react";
 import BeforeAfterCard from "../components/BeforeAfterCard";
@@ -21,15 +18,13 @@ function BeforeAfter({ text1, text2 }) {
     { idx: 4, pos: 4, url: m3, active: true },
     { idx: 2, pos: 2, url: m4, active: true },
     { idx: 5, pos: 5, url: m5, active: true },
-    { idx: 6, pos: 6, url: m6, active: true },
-    { idx: 7, pos: 7, url: m7, active: true },
-    { idx: 8, pos: 8, url: m8, active: true },
-    { idx: 9, pos: 9, url: m9, active: false },
+    { idx: 6, pos: 6, url: m6, active: false },
+  
   ];
 
   const [cards, setCards] = useState(initalState);
   const [isHovered, setIsHovered] = useState(false);
-  const [isButtonVisible, setIsButtonVisible]=useState(false)
+  const [isButtonVisible, setIsButtonVisible] = useState(false);
 
   const handleLeftClick = (isLeft) => {
     const prevState = [...cards];
@@ -109,7 +104,7 @@ function BeforeAfter({ text1, text2 }) {
           onClick={() => handleLeftClick()}
         >
           {"<"}
-        </div >
+        </div>
 
         {cards
           .filter((f) => f.active === true)

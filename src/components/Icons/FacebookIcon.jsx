@@ -4,7 +4,7 @@ const FacebookIcon = ({ showFacebookTitle, customsize }) => {
   return (
     <div>
       <a
-        href="https://www.facebook.com/majer.krisztian88"
+        href="https://www.facebook.com"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center transition duration-500 hover:scale-110" // Add this class to style the anchor as a flex container

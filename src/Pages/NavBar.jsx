@@ -52,7 +52,7 @@ const NavBar = () => {
           duration={500}
           className="text-customred "
         >
-          MAJER
+          T-100
         </Link>{" "}
         <Link
           to={"banner"}

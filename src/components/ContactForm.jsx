@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import Button from "./Button";
 import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
+const  ContactForm = () => {
   const form = useRef();
 
   const formInitialDetails = {

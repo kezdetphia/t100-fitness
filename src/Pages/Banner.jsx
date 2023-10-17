@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import bannerbg2 from "../utilities/bannerbg2.jpg";
-import m11 from '../utilities/majer/m11.jpg'
+import m1 from '../utilities/arnold/m1.png'
 import Button from '../components/Button'
 import HeaderText from "../components/HeaderText";
 import { Link } from "react-scroll";
@@ -19,7 +18,7 @@ const Banner2 = ({text, text1, text2}) => {
       id="banner"
       className="w-screen h-screen relative flex flex-col md:flex-row sm:flex-row pt-10"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${m11})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(${m1})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -31,10 +30,10 @@ const Banner2 = ({text, text1, text2}) => {
         }`}
       >
         <div>
-          <HeaderText text1="UNLEASH YOUR" text2="POTENTIAL" />
+          <HeaderText text1="ACTIVATE YOUR" text2="CAPABILITIES" />
 
           <p className="font-[poppins, bold] text-sm text-customgray tracking-wider m-2">
-            PROFESSIONAL ONLINE FITNESS COACHING
+            ADVANCED DIGITAL FITNESS GUIDANCE
           </p>
           <Link
             to={"contactUs"}

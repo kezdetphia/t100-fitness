@@ -4,7 +4,7 @@ const InstagramIcon = ({ showInstagramTitle, customsize }) => {
   return (
     <div>
       <a
-        href="https://www.instagram.com/krisztianmajer_elitepro/"
+        href="https://www.instagram.com"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center duration-500 hover:scale-110"

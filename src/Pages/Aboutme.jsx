@@ -4,116 +4,40 @@ import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import RedLine from "../components/RedLine";
 
-import bg from "../utilities/bg.jpg";
-import bg2 from "../utilities/bg2.jpg";
-import p1 from "../utilities/p1.png";
-import p4 from "../utilities/p4.png";
+import m1 from "../utilities/arnold/m1.png";
+import m2 from "../utilities/arnold/m2.png";
+import m3 from "../utilities/arnold/m3.png";
+import m4 from "../utilities/arnold/m4.png";
+import m5 from "../utilities/arnold/m5.png";
+import m6 from "../utilities/arnold/m6.png";
 
-import pic1 from "../utilities/pic1.jpg";
-import m1 from "../utilities/majer/m1.jpg";
-import m2 from "../utilities/majer/m2.jpg";
-import m3 from "../utilities/majer/m3.jpg";
-import m4 from "../utilities/majer/m4.jpg";
-import m5 from "../utilities/majer/m5.jpg";
-import m6 from "../utilities/majer/m6.jpg";
-import m7 from "../utilities/majer/m7.jpg";
-import m8 from "../utilities/majer/m8.jpg";
-import m9 from "../utilities/majer/m9.jpg";
-import m10 from "../utilities/majer/m10.jpg";
-import m11 from "../utilities/majer/m11.jpg";
-import m12 from "../utilities/majer/m12.jpg";
-import m13 from "../utilities/majer/m13.jpg";
-import m14 from "../utilities/majer/m14.jpg";
-import m15 from "../utilities/majer/m15.jpg";
-import m16 from "../utilities/majer/m16.jpg";
-import m17 from "../utilities/majer/m17.jpg";
-import m18 from "../utilities/majer/m18.jpg";
-import m19 from "../utilities/majer/m19.jpg";
-import m20 from "../utilities/majer/m20.jpg";
 import { Md10Mp, Md7KPlus } from "react-icons/md";
 
 const Aboutme = ({ text1, text2 }) => {
   const slides = [
     {
       url: m1,
-      text: `HI, I'M MAJER KRISZTIAN . I'm a passionate personal trainer dedicated to helping you achieve your fitness goals.`,
+      text: `HI, I'M T-100! I'm a passionate personal terminator trainer dedicated to helping you achieve your fitness goals and survive.`,
     },
     {
       url: m2,
-      text: `Welcome to my fitness journey! I'm your trusted personal trainer, here to help you achieve your fitness aspirations.`,
+      text: "I'll make sure you're sweating more than a T-800 in a molten metal bath!",
     },
     {
       url: m3,
-      text: `Ready to transform your life through fitness? Let me be your guide on this incredible journey to a healthier you.`,
+      text: "Your body fat percentage will be terminated!",
     },
     {
       url: m4,
-      text: `Let's embark on a fitness adventure together! I'm a dedicated personal trainer committed to empowering you.`,
+      text: "I'll push you until you say 'Hasta la vista baby!'",
     },
     {
       url: m5,
-      text: `Hello and welcome! I'm a passionate personal trainer on a mission to help you unlock your fitness potential.`,
+      text: "I don't do 'cheat days.' I'll be back with my judgmental red eye if you even think about that extra slice of pizza.",
     },
     {
       url: m6,
-      text: `Get ready to conquer your fitness goals with my expert guidance! I'm committed to your success.`,
-    },
-    {
-      url: m7,
-      text: `Your fitness journey starts here! I'm a dedicated personal trainer, ready to make your fitness dreams a reality.`,
-    },
-    {
-      url: m8,
-      text: `Are you prepared to make a change and achieve your fitness goals? I'm here to be your motivator and support.`,
-    },
-    {
-      url: m9,
-      text: `Unlock your potential and transform your body with my dedicated guidance. I'm committed to your empowerment.`,
-    },
-    {
-      url: m10,
-      text: `Join me on a fitness adventure! I'm your personal trainer, committed to helping you live a healthier and happier life.`,
-    },
-    {
-      url: m11,
-      text: `Ready to take control of your fitness journey? I'm a passionate personal trainer, here to help you succeed.`,
-    },
-    {
-      url: m12,
-      text: `Welcome to a world of fitness and well-being! I'm a personal trainer dedicated to assisting you in reaching your fitness goals.`,
-    },
-    {
-      url: m13,
-      text: `Let's make your fitness dreams a reality together! I'm a personal trainer eager to support your fitness journey.`,
-    },
-    {
-      url: m14,
-      text: `Hello there! I'm your personal trainer, and I'm thrilled to be part of your fitness transformation journey.`,
-    },
-    {
-      url: m15,
-      text: `Get ready to achieve your fitness goals with my guidance! I'm a dedicated personal trainer ready to help you succeed.`,
-    },
-    {
-      url: m16,
-      text: `Your fitness journey starts here! I'm a passionate personal trainer committed to helping you become the best version of yourself.`,
-    },
-    {
-      url: m17,
-      text: `Ready to make a positive change in your life? I'm a personal trainer, and I'm here to support and motivate you on your fitness journey.`,
-    },
-    {
-      url: m18,
-      text: `Join me in the pursuit of a healthier, fitter you! I'm your personal trainer, committed to helping you reach your fitness aspirations.`,
-    },
-    {
-      url: m19,
-      text: `Are you ready to take the first step toward a healthier you? I'm a passionate personal trainer, dedicated to guiding you on your fitness journey.`,
-    },
-
-    {
-      url: pic1,
-      text: "I believe in the power of consistent effort and a positive mindset",
+      text: "I'll turn your sweat into liquid metal, and your muscles will be more defined than my programming code.",
     },
   ];
 

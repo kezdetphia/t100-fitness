@@ -56,7 +56,7 @@ const ContactDetails = ({
           <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
         </svg>
 
-        <div className="text-customgray">info@majerfitness.com</div>
+        <div className="text-customgray">t100@terminator.com</div>
       </div>
 
       {/* Add more contact details as needed */}
@@ -67,10 +67,10 @@ const ContactDetails = ({
             Business Hours
           </span>
           <span className="text-customgray pl-5 flex justify-start ">
-            Mon-Fri 10am - 8pm
+            Mon-Fri 5am - 5am
           </span>
           <span className="text-customgray pl-5 flex justify-start ">
-            Sat, Sun Closed
+            Sat, Sun Charging
           </span>
         </div>
         <Lottie className="w-40" animationData={animationData} />

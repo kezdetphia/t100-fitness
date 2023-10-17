@@ -67,13 +67,14 @@ const Footer = ({ width, text1, text2, customsize }) => {
           {/* headertext */}
           <div className="flex-col ">
             <div className="flex justify-center sm:justify-start pb-5 sm:pb-0">
-              <HeaderText text1={"MAJER"} text2={"FITNESS"} />
+              <HeaderText text1={"T-100"} text2={"FITNESS"} />
             </div>
             <div>
               <p className="text-customgray  flex text-center px-5  sm:text-start   font-poppins text-sm leading-1 tracking-wide">
-                Lorem ipsum dolor sit amet consectetur. Nulla et nisl sed diam
-                aliquam. Urna morbi egestas dis velit. Non viverra fermentum sit
-                sit neque rutrum habitasse auctor facilisi fermentum sit et sed.
+                Get ready to terminate those excuses and unleash your inner
+                machine! Pain is temporary; strength is eternal. I'll be your
+                relentless guide on this journey to fitness greatness.Unlock
+                your potential and become a fitness machine with me!
               </p>
             </div>
 
@@ -89,7 +90,7 @@ const Footer = ({ width, text1, text2, customsize }) => {
         <div className="sm:w-1/3 w-full sm:flex-col sm:text-start  pt-5 font-poppins px-7   ">
           <p className="text-white pb-5 text-2xl font-bold">Subsribe now</p>
           <p className="text-customgray pb-5">
-            Sign up for our newsletter to get informed about our deals
+            Sign up for our newsletter to get informed about me be back!
           </p>
           <form ref={form} onSubmit={sendSubscribe}>
             <input
@@ -153,7 +154,9 @@ const Footer = ({ width, text1, text2, customsize }) => {
       </div>
 
       <div className="w-full sm:w-1/3  text-customwhite pt-8 flex-col ">
-        <p className="text-sm text-start sm:pl-3 pl-1 ">@2023 Majer Fitness. All Rights Reserved </p>
+        <p className="text-sm text-start sm:pl-3 pl-1 ">
+          @2023 Terminator Fitness. All Rights Reserved{" "}
+        </p>
       </div>
     </div>
   );
