@@ -30,7 +30,7 @@ const Banner2 = ({text, text1, text2}) => {
         }`}
       >
         <div>
-          <HeaderText text1="ACTIVATE YOUR" text2="CAPABILITIES" />
+          <HeaderText text1="ACTIVATE YOUR" text2="POTENTIAL" />
 
           <p className="font-[poppins, bold] text-sm text-customgray tracking-wider m-2">
             ADVANCED DIGITAL FITNESS GUIDANCE
