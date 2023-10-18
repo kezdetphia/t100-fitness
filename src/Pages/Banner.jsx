@@ -52,3 +52,6 @@ const Banner2 = ({text, text1, text2}) => {
 };
 
 export default Banner2;
+
+
+
